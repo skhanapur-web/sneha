@@ -1,0 +1,80 @@
+.top-bar {
+    background: #245f3e;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    background: #6ad17b;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo {
+    color: white;
+}
+.navbar input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.product-details{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+.product-image img {
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.product-info h2 {
+    margin-bottom: 10px;
+}
+.product-info .price {
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.product-info .desc{
+    margin-bottom:15px;
+    color: #555;
+}
+.cart-btn {
+    background: green;
+    color: white;
+    border: none;
+    padding:10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.buy-btn{
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back-link{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}

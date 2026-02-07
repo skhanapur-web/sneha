@@ -1,0 +1,30 @@
+body{
+    font-family: Arial;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 40px;
+}
+.order-box {
+    width: 300px;
+    margin-right: 40px;
+}
+.order-box h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.order-box p{
+    font-size: 14px;
+    margin: 6px 0;
+}
+.order-btn {
+    background: green;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.order-btn:hover {
+    background: darkgreen;
+}
